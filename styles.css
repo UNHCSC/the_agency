@@ -13,19 +13,56 @@ body, html {
     height: 100%;
 }
 
+.title{
+    margin: 0;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-weight: 900;
+    width: 100vw;
+    text-align: center; /* Center align content */
+    padding: 20px; /* Add padding to make content look nicer */
+}
+
 .main{
     color: white;
     text-align: center; /* Center align content */
     padding: 20px; /* Add padding to make content look nicer */
-
 }
 
 #logo{
-    top: 0px;
+    top: 150px;
     right: 0px;
     position: absolute;
     max-width: 250px;
     max-height: 250px;
     width: auto;
     height: auto;
+}
+
+.navbar {
+    background-color: #212121; /* Background color of the navbar */
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white; /* Link color */
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #d1d1d1; /* Hover background color */
+    color: black; /* Hover text color */
 }
