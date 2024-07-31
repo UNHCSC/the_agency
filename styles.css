@@ -66,3 +66,7 @@ body, html {
     background-color: #d1d1d1; /* Hover background color */
     color: black; /* Hover text color */
 }
+#hidden-clue {
+    color: #fff2a7;
+    visibility: hidden;
+}
